@@ -1,0 +1,19 @@
+{
+  "employees": [
+    {
+      "name": "abdul",
+      "role": "graphic design",
+      "employee_number": "62187"
+    },
+    {
+      "name": "moneer",
+      "role": "software developers",
+      "employee_number": "95752"
+    },
+    {
+      "name": "issa",
+      "role": "graphic design",
+      "employee_number": "66255"
+    }
+  ]
+}
