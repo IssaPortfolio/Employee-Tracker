@@ -1,0 +1,181 @@
+/* Background color of the body */
+body {
+    background-color: rgb(34, 34, 34);
+}
+
+
+/* Resetting the margin and padding of all elements, and setting a default font */
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 0.5rem;
+    background: rgba(50, 50, 50, 0);
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(220, 220, 220);
+    border-radius: 2rem;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(165, 165, 165);
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: rgb(110, 110, 110);
+}
+
+
+/* Social media list */
+.social-media-list {
+    position: relative;
+    font-size: 7rem;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* Social media list links */
+.social-media-list li a {
+    color: rgb(137, 211, 230);
+}
+
+/* Social media list items */
+.social-media-list li {
+    position: relative; 
+    display: inline-block;
+    height: 7rem;
+    width: 7rem;
+    margin: 10px 3px;
+    border-radius: 0.5rem;
+    color: #fff;
+    background-color: rgb(51, 51, 51);
+    cursor: pointer; 
+    transition: all .2s ease-in-out;
+}
+  
+/* Social media list items on hover */
+.social-media-list li:hover {
+    background-color: rgb(68, 90, 95); 
+}
+
+
+/* Menu */
+.menu {
+    padding-right: 0.5rem;
+    display: flex;
+    justify-content: right;
+}
+
+/* Menu list items */
+.menu li {
+    list-style-type: none; 
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+/* Menu links */
+.menu a{
+    color: rgb(235, 235, 235);
+    font-size: 1rem;
+}
+
+/* Menu list items on hover */
+.menu li:hover{
+    background-color: rgb(114, 114, 114);
+}
+
+
+/* Footer */
+footer {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 80rem;
+    margin: auto;
+    font-size: 0.9rem;
+}
+
+
+/* Footer list items */
+.footer li {
+    list-style-type: none; 
+    padding: 0.2rem;
+    margin: 0.5rem;
+}
+
+/* Footer links */
+.footer a{
+    color: rgb(235, 235, 235);
+    font-size: 0.7rem;
+}
+
+
+/* Title class */
+.title {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+/* Para class */
+.para {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 80rem;
+    margin: auto;
+    font-size: 1.5rem;
+
+}
+
+/* User-agreement class */
+.user-agreement {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    width: 80rem;
+    margin: auto;
+    font-size: 1.5rem;
+
+}
+
+
+/* Images with class 'images' */
+.images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: drop-shadow(6px 6px 10px);
+    border-radius: 1.5rem;
+}
+
+
+/* Horizontal lines with class 'rounded' */
+hr.rounded {
+    border-top: 8px solid rgb(131, 131, 131);
+    margin:auto;
+    width: 80rem;
+    border-radius: 5rem;
+}
+
+
+/* Links */
+a {
+    color:rgb(0, 183, 207);
+    text-decoration: None;
+}
+
+
+/* Download */
+.download {
+    color: rgb(184, 184, 184);
+    text-align: center;
+    width: 25rem;
+    margin: auto;
+    font-size: 1.5rem;
+    border: 0.2rem solid rgb(122, 122, 122);
+    border-radius: 0.5rem;
+}
